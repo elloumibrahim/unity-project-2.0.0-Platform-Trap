@@ -29,6 +29,8 @@ public class TeleportationManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.LogError("TP: " );
+
         teleportRay.enabled = false;
 
         activate.action.Enable();
